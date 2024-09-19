@@ -11,7 +11,6 @@ public class q3131 {
     // This basically first calculates the diff of each element , to get the total of the diffrences
     // then calculates the avg spread , by dividing the sum by nums.length().
     public static void main(String[] args) {
-        int[] nums1 = {};
-        int[] nums2 = {};
+
     }
 }
