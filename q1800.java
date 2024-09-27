@@ -22,6 +22,6 @@ public class q1800 {
 
     public static void main(String[] args) {
         int[] nums = {6};
-        System.out.println(maxAscendingSum(nums)); // Output should be 7
+        System.out.println(maxAscendingSum(nums)); 
     }
 }
