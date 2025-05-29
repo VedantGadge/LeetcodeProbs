@@ -1,3 +1,5 @@
+//RIGHT SHIFT ARRAY (check below for left shift)
+
 public class q189{
 
     public static int[] reverse(int[] arr,int left,int right){
@@ -63,3 +65,33 @@ public class q189{
  i=1   1123456
  */
 
+
+ //LEFT SHIFT ARRAY
+
+//  public class q189{
+
+//     public static int[] reverse(int[] arr,int left,int right){
+//         right--;
+//         while(left<right){
+//             int temp = arr[left];
+//             arr[left] = arr[right];
+//             arr[right] = temp;
+//             left++;
+//             right--;
+//         }
+//         return arr;
+//     }
+//     public static void main(String[] args) {
+//         int[] arr = {1,2,3,4,5,6,7};
+//         int k = 3;
+//         k = k % arr.length;
+//         arr = reverse(arr, 0, k);
+//         arr = reverse(arr,k,arr.length);
+//         arr = reverse(arr, 0, arr.length);
+//         System.gc();
+//          for(int i =0;i<arr.length;i++){
+//              System.out.print(arr[i]);
+//          }
+
+//     }
+// }
