@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class q217 {
     public boolean containsDuplicate(int[] nums) {
         // Create a HashSet to store the unique elements.
