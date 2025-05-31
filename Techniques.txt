@@ -1,0 +1,3 @@
+- Bayer-Moore majority voting algorithm => Finding the majority element in an array (element which appears more than n/2 times)
+- Kadane's Algorithm => Finding the maximum sum possible of a subarray among the array
+- Array rotation using reversal => Used to rotate array left or right by k steps by reversals and splitting
