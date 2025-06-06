@@ -3,10 +3,17 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "q15",
       "request": "launch",
       "mainClass": "q15",
       "projectName": "LeetCode_probs_68424f01"
+=======
+      "name": "q229",
+      "request": "launch",
+      "mainClass": "q229",
+      "projectName": "LeetcodeProbs_4218af80"
+>>>>>>> a7ebebf7478c85da880315dbeb7dd2746e704ad8
     },
     {
       "type": "java",
