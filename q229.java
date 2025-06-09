@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class q229 {
     public static void main(String[] args) {
        ArrayList<Integer> ans = new ArrayList<>();
-       int[] nums = {2,1,1,3,1,4,5,6};
+       int[] nums = {3,3,4,4,2,1,3};
        int count1 = 0 , count2 = 0;
        int el1 = Integer.MIN_VALUE , el2 = Integer.MIN_VALUE;
        for (int i = 0;i<nums.length;i++){
