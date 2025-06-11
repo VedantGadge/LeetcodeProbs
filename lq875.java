@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class lq875 {
 
     static int maxElement(int[] arr){
