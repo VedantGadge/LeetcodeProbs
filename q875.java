@@ -1,4 +1,4 @@
-public class lq875 {
+public class q875 {
 
     static int maxElement(int[] arr){
         int max = arr[0];
