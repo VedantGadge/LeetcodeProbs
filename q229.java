@@ -22,7 +22,7 @@ public class q229 {
             count2-- ;
         }
        }
-
+       
        //validate
        count1 = 0;
         count2 = 0;
