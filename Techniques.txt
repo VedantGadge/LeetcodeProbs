@@ -1,3 +1,5 @@
 - Bayer-Moore majority voting algorithm(q169) => Finding the majority element in an array (element which appears more than n/2 times) q
 - Kadane's Algorithm(q53) => Finding the maximum sum possible of a subarray among the array
 - Array rotation using reversal(q189) => Used to rotate array left or right by k steps by reversals and splitting 
+- Tortoise Hare approach => Finding the middle node of a linked list by having a slow pointer which moves by one step and a fast pointer which moves by two steps
+                            Also to find if there is a loop in the linked list , as slow n fast will overlap at some point of time , if loop exists
