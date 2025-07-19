@@ -1,3 +1,5 @@
+// LeetCode 162: Find Peak Element - Binary search with neighbor comparison to find local maximum
+// Core Logic: Move towards higher neighbor side, binary search guarantees finding a peak
 public class q162 {
     public static void main(String[] args) {
         int[] nums = {1,2,1,3,5,6,4};

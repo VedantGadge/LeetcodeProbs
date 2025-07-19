@@ -1,3 +1,5 @@
+// LeetCode 3304: Find the K-th Character in String Game I - StringBuilder expansion with character increment
+// Core Logic: Expand string by appending incremented characters, continue until length >= k
 public class q3304 {
 
     static char kthCharacter(int k) {

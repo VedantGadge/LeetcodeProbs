@@ -1,3 +1,6 @@
+// LeetCode 747: Largest Number At Least Twice of Others - Find max and second max, compare their ratio
+// Core Logic: Track max and second max in single pass, check if max >= 2 * secondMax
+
 public class q747 {
 
     public static int dominantIndex(int[] nums) {

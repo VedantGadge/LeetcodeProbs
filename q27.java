@@ -1,3 +1,5 @@
+// LeetCode 27: Remove Element - Two-pointer in-place removal with count tracking
+// Core Logic: Skip target values, use count pointer to place non-target elements in-place
 public class q27 {
     public static int removeElement(int[] nums, int val) {
         

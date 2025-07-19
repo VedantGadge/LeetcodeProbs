@@ -1,3 +1,5 @@
+// LeetCode 1394: Find Lucky Integer in an Array - HashMap frequency counting with key-value matching
+// Core Logic: Use getOrDefault for frequency, iterate entries to find key == value, track maximum
 import java.util.HashMap;
 import java.util.Map;
 

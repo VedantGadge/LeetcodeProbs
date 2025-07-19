@@ -1,3 +1,6 @@
+// LeetCode 81: Search in Rotated Sorted Array II - Modified binary search handling duplicates
+// Core Logic: Handle duplicates by shrinking bounds when nums[low]==nums[mid]==nums[high], else use standard rotated array logic
+
 public class q81 {
     public static void main(String[] args) {
         int[] nums = {1,0,1,1,1};

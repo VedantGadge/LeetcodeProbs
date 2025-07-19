@@ -1,3 +1,5 @@
+// LeetCode 19: Remove Nth Node From End - Two pointers with n-step gap for one-pass solution
+// Core Logic: Fast pointer moves n steps ahead, then both move until fast reaches end
 public class q19 {
     
     static class ListNode {

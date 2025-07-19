@@ -1,3 +1,5 @@
+// LeetCode 167: Two Sum II - Two pointers on sorted array with sum comparison
+// Core Logic: Adjust pointers based on current sum vs target, return 1-indexed positions
 public class q167 {
     static int[] twoSum(int[] numbers, int target) {
         int low = 0;

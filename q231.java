@@ -1,3 +1,5 @@
+// LeetCode 231: Power of Two - Bit manipulation with n & (n-1) technique for single bit detection
+// Core Logic: Powers of 2 have exactly one bit set; n & (n-1) removes rightmost set bit
 public class q231 {
 
     public boolean isPowerOfTwo(int n) {

@@ -1,3 +1,6 @@
+// LeetCode 73: Set Matrix Zeroes - In-place marking using first row and column as flags
+// Core Logic: Use matrix[i][0] and matrix[0][j] as markers, handle first column separately with col0 variable
+
 //this approach is best a it uses O(n^2) time and O(1) space complexity,
 //check below for easier but a bit worse soln.
 

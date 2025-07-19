@@ -1,3 +1,6 @@
+// LeetCode 8: String to Integer (atoi) - State machine approach with overflow handling
+// Core Logic: Skip spaces, handle sign, process digits with bounds checking using Integer.MAX_VALUE/MIN_VALUE
+
 public class q8 {
     public static void main(String[] args) {
         String s = " -042";

@@ -1,3 +1,5 @@
+// LeetCode 118: Pascal's Triangle - Mathematical formula for binomial coefficients with running calculation
+// Core Logic: Use nCr formula optimization, calculate each row element using temp *= (row-col)/col pattern
 import java.util.ArrayList;
 import java.util.List;
 

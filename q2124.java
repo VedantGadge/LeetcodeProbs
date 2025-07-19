@@ -1,3 +1,5 @@
+// LeetCode 2124: Check if All A's Appear Before All B's - Track 'b' encounters and validate 'a' positions
+// Core Logic: Once 'b' is encountered, any subsequent 'a' makes string invalid
 public class q2124 {
     public static boolean checkString(String s) {
         int res=0;

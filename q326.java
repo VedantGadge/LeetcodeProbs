@@ -1,3 +1,6 @@
+// LeetCode 326: Power of Three - Recursive multiplication check with overflow protection
+// Core Logic: Recursively multiply by 3 until reaching or exceeding n, check overflow before multiplication
+
 public class q326 {
 
     static boolean check(int n , int i){

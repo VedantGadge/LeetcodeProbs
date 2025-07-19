@@ -1,3 +1,5 @@
+// LeetCode 1450: Number of Students Doing Homework at Query Time - Range checking with absolute values
+// Core Logic: Check if queryTime falls within [startTime, endTime] using absolute distance comparison
 public class q1450 {
 
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {

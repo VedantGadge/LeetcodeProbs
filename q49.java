@@ -1,3 +1,6 @@
+// LeetCode 49: Group Anagrams - HashMap with sorted string as key for grouping
+// Core Logic: Sort each string to create canonical form as HashMap key, group original strings with same sorted key
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Hashtable;

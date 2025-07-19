@@ -1,3 +1,5 @@
+// LeetCode 1768: Merge Strings Alternately - Two-pointer approach with StringBuilder for efficient merging
+// Core Logic: Alternate characters while both strings available, append remaining characters from longer string
 class q1768{
     static String mergeAlternately(String word1, String word2) {
         int w1 = 0 , w2 = 0;

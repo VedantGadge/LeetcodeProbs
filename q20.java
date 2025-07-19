@@ -1,3 +1,5 @@
+// LeetCode 20: Valid Parentheses - Stack-based matching with immediate validation on closing brackets
+// Core Logic: Push opening brackets, pop and validate on closing brackets, check stack emptiness at end
 import java.util.Stack;
 
 public class q20 {

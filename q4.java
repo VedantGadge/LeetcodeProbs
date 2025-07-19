@@ -1,3 +1,6 @@
+// LeetCode 4: Median of Two Sorted Arrays - Binary search on smaller array with partition technique
+// Core Logic: Partition both arrays using binary search ensuring left partition has correct size and max_left <= min_right
+
 class q4{
 
     static double findMedianSortedArrays(int[] nums1, int[] nums2) {

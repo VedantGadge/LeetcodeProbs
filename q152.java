@@ -1,3 +1,5 @@
+// LeetCode 152: Maximum Product Subarray - Prefix/suffix approach to handle negative numbers optimally
+// Core Logic: Track prefix and suffix products, reset on zero, handles odd/even negative count cases
 class q152{
     public static void main(String[] args) {
         int nums[] = {-2,3,4,-1,0,-2,3,1,4,0,4,6,-1,4};

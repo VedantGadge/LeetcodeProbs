@@ -1,3 +1,6 @@
+// LeetCode 74: Search a 2D Matrix - Binary search treating 2D matrix as 1D sorted array
+// Core Logic: Convert 2D coordinates using row=mid/cols, col=mid%cols, binary search on total elements
+
 public class q74 {
 
     static boolean searchMatrix(int[][] matrix, int target) {

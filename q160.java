@@ -1,3 +1,5 @@
+// LeetCode 160: Intersection of Two Linked Lists - Two pointers with list switching for equal traversal
+// Core Logic: When pointer reaches end, switch to other list; they'll meet at intersection or null
 public class q160 {
 
     static class ListNode {

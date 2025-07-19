@@ -1,3 +1,5 @@
+// LeetCode 1011: Capacity To Ship Packages Within D Days - Binary search on capacity with simulation
+// Core Logic: Binary search on capacity range, simulate shipping days for each capacity
 public class q1011 {
 
     static int calcDays(int[] arr, int n) {

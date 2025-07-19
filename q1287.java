@@ -1,3 +1,5 @@
+// LeetCode 1287: Element Appearing More Than 25% In Sorted Array - Jump by quarter-length for efficiency
+// Core Logic: Check if arr[i] == arr[i + size/4], leverages sorted property for O(1) detection
 public class q1287 {
 
     public static int findSpecialInteger(int[] arr) {

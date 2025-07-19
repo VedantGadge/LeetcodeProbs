@@ -1,3 +1,6 @@
+// LeetCode 540: Single Element in a Sorted Array - Binary search with even index property check
+// Core Logic: At even index, single element causes nums[mid] != nums[mid+1]; adjust search accordingly
+
 public class q540 {
     public static void main(String[] args) {
         int[] nums = {1,1,2,3,3,4,4,8,8};

@@ -1,3 +1,5 @@
+// LeetCode 217: Contains Duplicate - HashSet add() return value for duplicate detection
+// Core Logic: set.add() returns false if element already exists, immediate duplicate detection
 import java.util.HashSet;
 
 public class q217 {

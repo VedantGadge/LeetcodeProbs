@@ -1,4 +1,7 @@
 
+// LeetCode 328: Odd Even Linked List - Separate odd and even nodes using two pointers, then connect
+// Core Logic: Track odd/even nodes separately, maintain evenHead to reconnect at end
+
 public class q328 {
 
     static class ListNode {

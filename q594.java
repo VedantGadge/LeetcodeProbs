@@ -1,3 +1,6 @@
+// LeetCode 594: Longest Harmonious Subsequence - HashMap frequency counting with adjacent key checking
+// Core Logic: Count frequencies, for each number check if number+1 exists, sum their frequencies for harmony
+
 import java.util.Hashtable;
 
 public class q594 {

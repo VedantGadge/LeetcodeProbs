@@ -1,3 +1,5 @@
+// LeetCode 150: Evaluate Reverse Polish Notation - Stack with ternary operators for operation handling
+// Core Logic: Push numbers, pop two operands for operations, use nested ternary for clean operation logic
 import java.util.Stack;
 
 public class q150 {

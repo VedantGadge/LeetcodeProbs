@@ -1,3 +1,5 @@
+// LeetCode 148: Sort List - Merge sort implementation with middle finding and list merging functions
+// Core Logic: Divide using middle node, recursively sort halves, merge sorted sublists
 public class q148 {
 
     static class ListNode {

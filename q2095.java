@@ -1,3 +1,5 @@
+// LeetCode 2095: Delete Middle Node of Linked List - Floyd's technique with previous pointer tracking
+// Core Logic: Use slow/fast pointers, track previous of slow, handle edge cases for small lists
 public class q2095 {
     
     static class ListNode {

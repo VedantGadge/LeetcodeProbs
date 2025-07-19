@@ -1,3 +1,5 @@
+// LeetCode 1021: Remove Outermost Parentheses - Counter-based tracking to skip outermost pairs
+// Core Logic: Use counter, skip characters when counter=0 (outermost), track balance with increment/decrement
 public class q1021 {
     public static void main(String[] args) {
         String s = "(()())(())";

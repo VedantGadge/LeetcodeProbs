@@ -1,3 +1,5 @@
+// LeetCode 151: Reverse Words in String - Manual parsing with two-pointer word extraction and reverse building
+// Core Logic: Skip spaces, extract words with two pointers, prepend each word to result string
 public class q151 {
     public static void main(String[] args) {
         String s = "the sky is blue";

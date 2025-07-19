@@ -1,3 +1,6 @@
+// LeetCode 907: Sum of Subarray Minimums - Stack-based approach to find previous/next smaller elements
+// Core Logic: Use stacks to find range where each element is minimum, calculate contribution to total sum
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

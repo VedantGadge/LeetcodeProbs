@@ -1,3 +1,5 @@
+// LeetCode 11: Container With Most Water - Two pointers to find maximum water container area
+// Core Logic: Start with widest container, move pointer with smaller height inward to maximize area
 public class q11 {
     public int maxArea(int[] height) {
        int right = height.length-1;

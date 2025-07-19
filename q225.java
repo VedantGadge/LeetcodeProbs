@@ -1,3 +1,5 @@
+// LeetCode 225: Implement Stack using Queues - Single queue with rotation technique on push
+// Core Logic: After adding element, rotate queue (size-1) times to make new element front
 import java.util.LinkedList;
 import java.util.Queue;
 //ImplementSstack using Queue

@@ -1,3 +1,5 @@
+// LeetCode 240: Search 2D Matrix II - Start from top-right corner for optimal elimination path
+// Core Logic: Compare with top-right, move left if greater, move down if smaller
 public class q240 {
 
     static boolean searchMatrix(int[][] matrix, int target) {

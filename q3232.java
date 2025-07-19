@@ -1,3 +1,5 @@
+// LeetCode 3232: Find if Digit Game Can Be Won - Compare sums of single-digit vs double-digit numbers
+// Core Logic: Calculate separate sums for numbers < 10 and >= 10, Alice wins if sums are different
 public class q3232 {
     public boolean canAliceWin(int[] nums) {
         int sum1 = 0; //to calculate the sum of all single digits

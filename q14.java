@@ -1,3 +1,5 @@
+// LeetCode 14: Longest Common Prefix - Sort array and compare first/last strings for lexicographic efficiency
+// Core Logic: After sorting, only first and last strings matter for finding common prefix
 import java.util.Arrays;
 
 public class q14 {

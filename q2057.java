@@ -1,3 +1,5 @@
+// LeetCode 2057: Smallest Index With Equal Value - Modulo comparison for index-value matching
+// Core Logic: Check if nums[i] == i % 10, return first matching index or -1
 public class q2057 {
 
     public static int smallestEqual(int[] nums) {

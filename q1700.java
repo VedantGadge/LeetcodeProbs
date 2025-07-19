@@ -1,3 +1,5 @@
+// LeetCode 1700: Number of Students Unable to Eat Lunch - Count preferences, simulate stack serving
+// Core Logic: Count circular/square preferences, decrement counts based on sandwich stack order
 public class q1700 {
     
     public int countStudents(int[] students, int[] sandwiches) {

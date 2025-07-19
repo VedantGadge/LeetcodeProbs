@@ -1,3 +1,6 @@
+// LeetCode 705: Design HashSet - Hash table implementation using array of LinkedList buckets
+// Core Logic: Use modulo hashing with separate chaining via LinkedList for collision resolution
+
 import java.util.LinkedList;
 
 // using hashing n buckets linked list

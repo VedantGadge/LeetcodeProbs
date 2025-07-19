@@ -1,3 +1,6 @@
+// LeetCode 560: Subarray Sum Equals K - Prefix sum with HashMap to count target sum occurrences
+// Core Logic: Track prefix sums in HashMap, for each prefix sum check if (prefixSum - k) exists
+
 import java.util.HashMap;
 
 public class q560 {

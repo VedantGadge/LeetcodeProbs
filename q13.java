@@ -1,3 +1,5 @@
+// LeetCode 13: Roman to Integer - HashMap lookup with subtraction logic for smaller-before-larger cases
+// Core Logic: Add values normally, subtract when current < next (handles IV, IX, etc.)
 import java.util.HashMap;
 
 public class q13 {

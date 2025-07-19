@@ -1,3 +1,5 @@
+// LeetCode 1047: Remove All Adjacent Duplicates In String - Deque as stack with peekLast/pollLast
+// Core Logic: Use deque as stack, compare with top element, remove if same, add if different
 import java.util.ArrayDeque;
 import java.util.Deque;
 

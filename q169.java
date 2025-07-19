@@ -1,3 +1,5 @@
+// LeetCode 169: Majority Element - Boyer-Moore Majority Voting Algorithm with count tracking
+// Core Logic: Increment count for candidate match, decrement for mismatch; majority survives cancellation
 class q169{
     public static void main(String[] args) {
         int nums[] = {3,3,4,4,2,1,3};

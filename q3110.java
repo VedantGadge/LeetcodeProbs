@@ -1,3 +1,5 @@
+// LeetCode 3110: Score of a String - Sum absolute differences between consecutive characters
+// Core Logic: Iterate adjacent characters, sum Math.abs(char[i] - char[i+1]) for ASCII differences
 public class q3110 {
     static int scoreOfString(String s) {
         int sum = 0;

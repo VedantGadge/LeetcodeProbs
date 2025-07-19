@@ -1,3 +1,5 @@
+// LeetCode 1752: Check if Array Is Sorted and Rotated - Count rotation points with modulo wraparound
+// Core Logic: Use modulo to check wraparound, count breaks in non-decreasing order, allow max 1 break
 public class q1752 {
 
     public static boolean check(int[] nums) {

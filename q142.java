@@ -1,3 +1,5 @@
+// LeetCode 142: Linked List Cycle II - Floyd's algorithm + reset slow to head for cycle start detection
+// Core Logic: After detecting cycle, reset slow to head, move both one step until they meet at cycle start
 public class q142 {
      class ListNode {
       int val;

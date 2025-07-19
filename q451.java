@@ -1,3 +1,6 @@
+// LeetCode 451: Sort Characters By Frequency - HashMap frequency counting with PriorityQueue sorting by count
+// Core Logic: Count character frequencies in HashMap, use max-heap PriorityQueue to sort by frequency descending
+
 import java.util.HashMap;
 import java.util.PriorityQueue;
 

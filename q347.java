@@ -1,3 +1,6 @@
+// LeetCode 347: Top K Frequent Elements - HashMap frequency counting with min-heap of size k
+// Core Logic: Count frequencies in HashMap, use min-heap to maintain top k frequent elements
+
 import java.util.*;
 
 public class q347 {

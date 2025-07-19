@@ -1,3 +1,6 @@
+// LeetCode 875: Koko Eating Bananas - Binary search on eating speed with time calculation
+// Core Logic: Binary search between 1 and max pile size, calculate total hours needed for each speed
+
 public class q875 {
 
     static int maxElement(int[] arr){

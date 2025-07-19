@@ -1,3 +1,6 @@
+// LeetCode 946: Validate Stack Sequences - Simulate push/pop operations using stack
+// Core Logic: Push elements while matching popped sequence, check if stack is empty at end
+
 import java.util.Stack;
 
 public class q946 {

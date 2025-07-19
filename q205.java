@@ -1,3 +1,5 @@
+// LeetCode 205: Isomorphic Strings - Bidirectional HashMap mapping for character transformation validation
+// Core Logic: Use two HashMaps to ensure one-to-one character mapping in both directions
 import java.util.Hashtable;
 
 public class q205 {

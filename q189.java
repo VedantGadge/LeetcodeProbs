@@ -1,3 +1,5 @@
+// LeetCode 189: Rotate Array - Three-step reversal technique for in-place right rotation
+// Core Logic: Reverse entire array, reverse first k, reverse remaining; achieves k-position right shift
 //RIGHT SHIFT ARRAY (check below for left shift)
 
 public class q189{

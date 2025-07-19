@@ -1,3 +1,6 @@
+// LeetCode 682: Baseball Game - Stack implementation using linked list to track valid scores
+// Core Logic: Use custom stack with Node structure, handle operations (+, D, C) by manipulating stack state
+
 public class q682 {
     private Node top;
     private Node beloTop;

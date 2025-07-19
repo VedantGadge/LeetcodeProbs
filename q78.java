@@ -1,3 +1,6 @@
+// LeetCode 78: Subsets - Backtracking to generate all possible subsets
+// Core Logic: At each element choose to include or exclude, backtrack with current subset, add copy to result at base case
+
 import java.util.ArrayList;
 import java.util.List;
 

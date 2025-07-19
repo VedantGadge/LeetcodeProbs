@@ -1,3 +1,6 @@
+// LeetCode 941: Valid Mountain Array - Find peak then verify strictly increasing/decreasing sides
+// Core Logic: Locate maximum element, ensure it's not at edges, check strict monotonic properties
+
 public class q941 {
     public static boolean validMountainArray(int[] arr) {
         if (arr.length < 3) return false;

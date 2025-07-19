@@ -1,3 +1,5 @@
+// LeetCode 2570: Merge Two 2D Arrays by Summing Values - Two-pointer merge with value summation for equal IDs
+// Core Logic: Compare IDs, merge by summing values for equal IDs, handle remaining elements
 import java.util.ArrayList;
 import java.util.List;
 

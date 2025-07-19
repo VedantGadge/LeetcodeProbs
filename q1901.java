@@ -1,3 +1,5 @@
+// LeetCode 1901: Find Peak Element II - Binary search on columns with max element in each column
+// Core Logic: Binary search on columns, find max in column, check left/right neighbors for peak
 import java.util.Arrays;
 
 public class q1901 {

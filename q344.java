@@ -1,3 +1,6 @@
+// LeetCode 344: Reverse String - Two pointers from both ends with character swapping
+// Core Logic: Use two pointers moving towards center, swap characters until they meet
+
 public class q344 {
     
     public void reverseString(char[] s) {

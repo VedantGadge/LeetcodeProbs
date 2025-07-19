@@ -1,3 +1,5 @@
+// LeetCode 238: Product of Array Except Self - Separate left/right product arrays for O(n) solution
+// Core Logic: Build left products, then right products, multiply corresponding positions
 public class q238 {
 
     //This runs in time complexity = O(n)

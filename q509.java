@@ -1,3 +1,6 @@
+// LeetCode 509: Fibonacci Number - Iterative approach with two variables to avoid recursion overhead
+// Core Logic: Use temp variable to swap, maintain only last two fibonacci numbers in a and b
+
 public class q509 {
 
     static int fib(int n) {

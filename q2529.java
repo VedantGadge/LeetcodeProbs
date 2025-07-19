@@ -1,3 +1,5 @@
+// LeetCode 2529: Maximum Count of Positive Integer and Negative Integer - Binary search for boundary finding
+// Core Logic: Use binary search to find last negative and first positive positions, calculate counts
 public class q2529 {
     public  static int maximumCount(int[] nums) {
         int lastNegative = lastNegative(nums) +1;

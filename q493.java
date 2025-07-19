@@ -1,3 +1,6 @@
+// LeetCode 493: Reverse Pairs - Modified merge sort with counting pairs before merging
+// Core Logic: During merge sort, count reverse pairs where arr[i] > 2*arr[j] before standard merging
+
 class q493 {
     public static void merge(int[] arr, int low, int mid, int high) {
         int[] merged = new int[high - low + 1];

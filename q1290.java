@@ -1,3 +1,5 @@
+// LeetCode 1290: Convert Binary Number in Linked List to Integer - Bit shifting with OR operation
+// Core Logic: Left shift previous result, OR with current bit value (ans << 1) | temp.val
 public class q1290 {
 
   public class ListNode {

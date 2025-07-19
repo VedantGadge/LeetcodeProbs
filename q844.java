@@ -1,3 +1,6 @@
+// LeetCode 844: Backspace String Compare - Two pointers from end with skip counters for backspaces
+// Core Logic: Process strings from right, track skip counts for '#', compare valid characters
+
 public class q844 {
 
     public boolean backspaceCompare(String s, String t) {

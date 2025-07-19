@@ -1,3 +1,5 @@
+// LeetCode 1781: Sum of Beauty of All Substrings - Nested loops with frequency array for max-min calculation
+// Core Logic: For each starting position, extend substring and track character frequencies for beauty sum
 public class q1781 {
 
     static int beautySum(String s) {

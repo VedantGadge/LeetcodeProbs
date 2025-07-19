@@ -1,3 +1,6 @@
+// LeetCode 39: Combination Sum - Backtracking with unlimited reuse of elements
+// Core Logic: Recursive backtracking allowing same element reuse, subtract from target and backtrack when sum equals target
+
 import java.util.ArrayList;
 import java.util.List;
 

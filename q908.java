@@ -1,3 +1,6 @@
+// LeetCode 908: Smallest Range I - Calculate range after optimal k adjustments to min/max
+// Core Logic: Find min/max, calculate range after adding k to min and subtracting k from max
+
 class q908 {
     public static int smallestRangeI(int[] nums, int k) {
         int range = 0;

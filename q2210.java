@@ -1,3 +1,5 @@
+// LeetCode 2210: Count Hills and Valleys in Array - Skip duplicates and find closest unique neighbors
+// Core Logic: Skip equal elements, use while loops to find unique neighbors, check hill/valley conditions
 public class q2210 {
     public static int countHillValley(int[] nums) {
         int HnV = 0; // Variable to track the count of hills and valleys

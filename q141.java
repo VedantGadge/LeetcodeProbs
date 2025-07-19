@@ -1,3 +1,5 @@
+// LeetCode 141: Linked List Cycle - Floyd's Cycle Detection (tortoise and hare algorithm)
+// Core Logic: Fast pointer moves 2 steps, slow 1 step; if they meet, cycle exists
 public class q141 {
      class ListNode {
       int val;

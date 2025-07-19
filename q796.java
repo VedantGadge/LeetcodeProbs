@@ -1,3 +1,6 @@
+// LeetCode 796: Rotate String - Concatenation trick to check if goal is substring of s+s
+// Core Logic: If goal is rotation of s, then goal will be substring of (s+s)
+
 public class q796 {
     public static void main(String[] args) {
         String s = "abcde";

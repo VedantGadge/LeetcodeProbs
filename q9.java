@@ -1,3 +1,6 @@
+// LeetCode 9: Palindrome Number - Mathematical reversal without string conversion
+// Core Logic: Handle negative numbers, reverse half the digits and compare with remaining half
+
 public class q9 {
     public static void main(String[] args) {
         int x = 1221;

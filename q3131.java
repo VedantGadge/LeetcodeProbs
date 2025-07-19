@@ -1,3 +1,5 @@
+// LeetCode 3131: Find the Integer Added to Array I - Calculate sum of differences and find average
+// Core Logic: Sum all (nums2[i] - nums1[i]) differences, divide by length to get added integer
 public class q3131 {
     public int addedInteger(int[] nums1, int[] nums2) {
 

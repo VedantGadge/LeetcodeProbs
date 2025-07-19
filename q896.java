@@ -1,3 +1,6 @@
+// LeetCode 896: Monotonic Array - Check both increasing and decreasing monotonic properties
+// Core Logic: First check if increasing, if fails then check decreasing, array is monotonic if either passes
+
 public class q896 {
     public static boolean isMonotonic(int[] nums) {
        boolean monot = true;

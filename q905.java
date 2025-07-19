@@ -1,3 +1,6 @@
+// LeetCode 905: Sort Array By Parity - Two pointers with in-place swapping to separate even/odd numbers
+// Core Logic: Use pointer j for next even position, swap when even number found, increment j
+
 public class q905 {
     public int[] sortArrayByParity(int[] nums) {
         if(nums.length==1) return nums;

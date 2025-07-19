@@ -1,3 +1,5 @@
+// LeetCode 2: Add Two Numbers - Use dummyHead pattern with carry propagation through linked lists
+// Core Logic: DummyHead simplifies edge cases, process digits with modulo/division for carry handling
 public class q2 {
 
     static class ListNode {

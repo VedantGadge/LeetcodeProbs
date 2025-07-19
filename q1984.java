@@ -1,3 +1,5 @@
+// LeetCode 1984: Minimum Difference Between Highest and Lowest of K Scores - Sliding window on sorted array
+// Core Logic: Sort array, slide window of size k, find minimum difference between window endpoints
 import java.util.Arrays;
 
 class q1984{

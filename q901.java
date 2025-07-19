@@ -1,3 +1,6 @@
+// LeetCode 901: Online Stock Span - Monotonic decreasing stack with price-span pairs
+// Core Logic: Stack stores [price, span] pairs, pop smaller prices and accumulate their spans
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

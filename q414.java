@@ -1,3 +1,6 @@
+// LeetCode 414: Third Maximum Number - Track top 3 distinct maximums using long variables
+// Core Logic: Use three long variables (a,b,c) to maintain distinct max values, return third max or first max
+
 public class q414 {
     public static int thirdMax(int[] nums) {
         long a,b,c; // a = max , b = 2nd max , c = 3rd max

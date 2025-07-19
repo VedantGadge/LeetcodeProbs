@@ -1,3 +1,6 @@
+// LeetCode 53: Maximum Subarray - Kadane's algorithm with running sum reset
+// Core Logic: Track current sum, reset to current element if sum becomes negative, maintain global maximum
+
 public class q53 {
     public static void main(String[] args) {
         int nums[] = {-2,-3,4,-1,-2,1,5,-3};

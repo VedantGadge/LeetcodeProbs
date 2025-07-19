@@ -1,3 +1,6 @@
+// LeetCode 674: Longest Continuous Increasing Subsequence - Single pass with counter reset on decrease
+// Core Logic: Track current length, increment on increase, reset to 1 on decrease, maintain maximum length
+
 public class q674 {
     public static int  findLengthOfLCIS(int[] nums) {
         if (nums.length == 0) {

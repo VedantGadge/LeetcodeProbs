@@ -1,3 +1,5 @@
+// LeetCode 1929: Concatenation of Array - System.arraycopy for efficient array duplication
+// Core Logic: Use System.arraycopy twice to copy original array to first and second half of result
 public class q1929 {
     static int[] getConcatenation(int[] nums) {
         int n = nums.length;

@@ -1,3 +1,6 @@
+// LeetCode 90: Subsets II - Backtracking with duplicate skipping using sorted array
+// Core Logic: Sort array first, skip duplicates at same recursion level using i!=index condition, add subset at each recursive call
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

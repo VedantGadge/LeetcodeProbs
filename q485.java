@@ -1,3 +1,6 @@
+// LeetCode 485: Max Consecutive Ones - Single pass counting with reset on zero
+// Core Logic: Track current streak, reset to zero when encountering 0, maintain maximum streak
+
 public class q485 {
 
     public static int findMaxConsecutiveOnes(int[] nums) {

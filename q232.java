@@ -1,3 +1,5 @@
+// LeetCode 232: Implement Queue using Stacks - Two-stack approach with lazy transfer optimization
+// Core Logic: Input stack for push, output stack for pop/peek, transfer only when output empty
 import java.util.Stack;
 //Implement queue using Stacks
 

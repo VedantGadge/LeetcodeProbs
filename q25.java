@@ -1,3 +1,5 @@
+// LeetCode 25: Reverse Nodes in k-Group - Helper functions for kth node finding and recursive reversal
+// Core Logic: Use findKthNode to validate groups, recursively reverse k-node segments
 public class q25 {
     
     static class ListNode {

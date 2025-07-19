@@ -1,3 +1,5 @@
+// LeetCode 1544: Make The String Great - Stack with ASCII difference checking for case pairs
+// Core Logic: Use stack, ASCII difference of 32 between same letters (upper/lower), pop pairs
 import java.util.Stack;
 
 public class q1544 {

@@ -1,3 +1,5 @@
+// LeetCode 1800: Maximum Ascending Subarray Sum - Running sum with reset on descending elements
+// Core Logic: Maintain running sum while ascending, reset to current element on descent, track maximum
 public class q1800 {
     public static int maxAscendingSum(int[] nums) {
         if (nums.length == 1) return nums[0]; // Edge case: single element

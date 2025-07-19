@@ -1,3 +1,5 @@
+// LeetCode 1838: Frequency of Most Frequent Element - Sliding window with operation cost calculation
+// Core Logic: Sort array, use sliding window where cost = windowSize * maxElement - currentSum <= k
 import java.util.Arrays;
 
 class q1838{

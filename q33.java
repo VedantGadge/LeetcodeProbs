@@ -1,3 +1,6 @@
+// LeetCode 33: Search in Rotated Sorted Array - Modified binary search identifying sorted half
+// Core Logic: Compare mid with boundaries to determine which half is sorted, then check if target lies in that sorted half
+
 public class q33 {
     public static void main(String[] args) {
            int[] nums = {4,5,6,7,0,1,2};

@@ -1,3 +1,5 @@
+// LeetCode 26: Remove Duplicates from Sorted Array - Two-pointer with boundary check to avoid duplicates
+// Core Logic: Skip consecutive duplicates, use count pointer to place unique elements in-place
 
 
 public class q26{

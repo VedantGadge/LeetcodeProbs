@@ -1,3 +1,6 @@
+// LeetCode 392: Is Subsequence - Two pointers to match characters in order
+// Core Logic: Use two counters, advance both when characters match, advance t pointer when no match
+
 public class q392 {
     public boolean isSubsequence(String s, String t) {
         int c1 = 0 , c2 = 0;

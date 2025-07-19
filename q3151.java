@@ -1,3 +1,5 @@
+// LeetCode 3151: Special Array I - Check adjacent elements have different parity (odd/even)
+// Core Logic: Verify each adjacent pair has different parity using modulo operations
 public class q3151 {
     public boolean isArraySpecial(int[] nums) {
         if(nums.length==1) return true;

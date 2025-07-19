@@ -1,3 +1,6 @@
+// LeetCode 410: Split Array Largest Sum - Binary search on answer with partition counting
+// Core Logic: Binary search on possible max sums, count partitions needed for each candidate
+
 public class q410 {
 
     static int countPartitions(int[] nums, int maxSum){

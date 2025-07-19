@@ -1,3 +1,6 @@
+// LeetCode 92: Reverse Linked List II - Reverse sublist between positions with dummy head technique
+// Core Logic: Use dummy head, find prev node before start, reverse nodes between left and right, reconnect properly
+
 public class q92 {
     public class ListNode {
         int val;

@@ -1,3 +1,6 @@
+// LeetCode 7: Reverse Integer - Mathematical reversal with overflow detection using long
+// Core Logic: Extract digits using modulo, build reversed using multiply-add, check 32-bit bounds with long casting
+
 class q7{
     public static void main(String[] args) {
         int x = 1234;

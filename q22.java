@@ -1,3 +1,5 @@
+// LeetCode 22: Generate Parentheses - Backtracking with open/close counters and StringBuilder optimization
+// Core Logic: Track open/close counts, add '(' if open < n, add ')' if close < open, backtrack via deleteCharAt
 import java.util.List;
 import java.util.ArrayList;
 

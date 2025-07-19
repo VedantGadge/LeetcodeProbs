@@ -1,3 +1,6 @@
+// LeetCode 557: Reverse Words in a String III - In-place character array reversal for each word
+// Core Logic: Convert to char array, find word boundaries, reverse each word using two pointers
+
 public class q557 {
 
 

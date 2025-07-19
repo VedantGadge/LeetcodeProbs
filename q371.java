@@ -1,3 +1,6 @@
+// LeetCode 371: Sum of Two Integers - Bit manipulation using XOR for sum and AND for carry
+// Core Logic: XOR gives sum without carry, AND<<1 gives carry, repeat until no carry
+
 public class q371 {
     public static int getSum(int x, int y) {
         

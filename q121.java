@@ -1,3 +1,5 @@
+// LeetCode 121: Best Time to Buy and Sell Stock - Single pass with running minimum and maximum profit tracking
+// Core Logic: Track minimum price seen so far, calculate profit at each step, update maximum profit
 class q121{
     public static void main(String[] args) {
         int prices[] = {7,1,5,3,6,4};

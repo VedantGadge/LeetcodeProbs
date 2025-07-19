@@ -1,3 +1,5 @@
+// LeetCode 1922: Count Good Numbers - Modular exponentiation with recursive power function
+// Core Logic: Even positions have 5 choices, odd have 4; use fast exponentiation with MOD
 public class q1922 {
 
     static final int MOD = 1000000007;

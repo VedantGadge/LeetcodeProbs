@@ -1,3 +1,6 @@
+// LeetCode 48: Rotate Image - In-place rotation using transpose then reverse each row
+// Core Logic: First transpose matrix (swap[i][j] with [j][i]), then reverse each row for 90-degree clockwise rotation
+
 public class q48 {
     public static void main(String[] args) {
         int matrix[][] = {{1,2,3},{4,5,6},{7,8,9}};

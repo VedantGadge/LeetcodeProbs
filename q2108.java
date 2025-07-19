@@ -1,3 +1,5 @@
+// LeetCode 2108: Find First Palindromic String in Array - Helper palindrome function with two pointers
+// Core Logic: Use separate palindrome checker, iterate array and return first palindromic string
 public class q2108 {
 
     public boolean isPalindrome(String s){

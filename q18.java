@@ -1,3 +1,5 @@
+// LeetCode 18: 4Sum - Extended 3Sum with nested loops for first/last elements + HashSet for duplicates
+// Core Logic: Fix outermost and innermost elements, apply 2-pointer technique on middle elements
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;

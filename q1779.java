@@ -1,3 +1,5 @@
+// LeetCode 1779: Find Nearest Point That Has the Same X or Y Coordinate - Manhattan distance with axis alignment check
+// Core Logic: Check if point shares x OR y coordinate, calculate Manhattan distance, track minimum
 public class q1779 {
 
     public static int nearestValidPoint(int x, int y, int[][] points) {

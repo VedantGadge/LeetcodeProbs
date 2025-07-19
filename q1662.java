@@ -1,3 +1,5 @@
+// LeetCode 1662: Check If Two String Arrays are Equivalent - Four-pointer character-by-character comparison
+// Core Logic: Use array pointers (i,j) and character pointers (p1,p2) to traverse both arrays simultaneously
 public class q1662 {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         int i = 0, j = 0; // pointers for word1 and word2 arrays

@@ -1,3 +1,5 @@
+// LeetCode 242: Valid Anagram - Character frequency array with increment/decrement approach
+// Core Logic: Use 26-size array, increment for first string, decrement for second, check zeros
 import java.util.Arrays;
 
 public class q242 {

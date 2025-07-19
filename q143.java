@@ -1,4 +1,5 @@
-import java.util.List;
+// LeetCode 143: Reorder List - Find middle, reverse second half, merge alternately
+// Core Logic: Use slow/fast pointers to find middle, reverse second part, then interweave nodes
 
 public class q143 {
     public class ListNode {

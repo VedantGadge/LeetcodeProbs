@@ -1,3 +1,5 @@
+// LeetCode 229: Majority Element II - Extended Boyer-Moore for two potential majority elements
+// Core Logic: Track two candidates with separate counters, handle case where elements differ
 import java.util.ArrayList;
 
 public class q229 {

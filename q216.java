@@ -1,3 +1,5 @@
+// LeetCode 216: Combination Sum III - Backtracking with pruning and remaining sum tracking
+// Core Logic: Use start pointer to avoid duplicates, track remaining sum (n), backtrack with remove
 import java.util.ArrayList;
 import java.util.List;
 

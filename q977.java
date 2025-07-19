@@ -1,3 +1,6 @@
+// LeetCode 977: Squares of a Sorted Array - Two pointers from ends comparing squared values
+// Core Logic: Compare squares from both ends, place larger square at end of result array, work backwards
+
 public class q977 {
     static int[] sortedSquares(int[] nums) {
         int left = 0;

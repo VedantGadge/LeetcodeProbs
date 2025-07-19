@@ -1,3 +1,6 @@
+// LeetCode 881: Boats to Save People - Two pointers on sorted array to pair lightest with heaviest
+// Core Logic: Sort people, pair lightest+heaviest if possible, always take heaviest person in each boat
+
 import java.util.Arrays;
 
 public class q881 {

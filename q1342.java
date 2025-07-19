@@ -1,3 +1,5 @@
+// LeetCode 1342: Number of Steps to Reduce Number to Zero - Recursive approach with step counting
+// Core Logic: Recursively divide by 2 if even, subtract 1 if odd, increment step counter
 public class q1342 {
 
     static int nos(int num , int steps){

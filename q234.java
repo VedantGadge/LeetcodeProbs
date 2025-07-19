@@ -1,3 +1,5 @@
+// LeetCode 234: Palindrome Linked List - Find middle, reverse second half, compare both halves
+// Core Logic: Slow/fast pointers to find middle, reverse from middle, compare node by node
 public class q234 {
     static class ListNode {
         int val;

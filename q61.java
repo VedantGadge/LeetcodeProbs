@@ -1,3 +1,6 @@
+// LeetCode 61: Rotate List - Make circular then break at new tail position
+// Core Logic: Find length and tail, make circular by connecting tail to head, find new tail at (len-k%len-1) position
+
 public class q61 {
     static class ListNode {
         int val;

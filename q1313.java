@@ -1,3 +1,5 @@
+// LeetCode 1313: Decompress Run-Length Encoded List - Arrays.fill for efficient range population
+// Core Logic: Calculate total size first, use Arrays.fill(array, start, end, value) for bulk insertion
 import java.util.Arrays;
 
 public class q1313 {

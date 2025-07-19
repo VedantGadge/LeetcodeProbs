@@ -1,3 +1,5 @@
+// LeetCode 153: Find Minimum in Rotated Sorted Array - Binary search on rotated array with sorted half detection
+// Core Logic: Compare mid with high to determine sorted half, search unsorted half for minimum
 public class q153 {
     public static void main(String[] args) {
         int[] nums = {3,4,5,1,2};

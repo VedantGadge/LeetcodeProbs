@@ -1,4 +1,7 @@
 
+// LeetCode 138: Copy List with Random Pointer - Three-pass approach: interweave, set random, separate
+// Core Logic: Insert copy nodes between originals, copy random pointers, then extract the copy list
+
 public class q138 {
    
     static class Node {

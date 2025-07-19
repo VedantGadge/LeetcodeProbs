@@ -1,3 +1,5 @@
+// LeetCode 1472: Design Browser History - Doubly linked list implementation for browser navigation
+// Core Logic: Use doubly linked list nodes with back/next pointers for history navigation
 public class q1472 {
 
     class Node {

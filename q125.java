@@ -1,3 +1,5 @@
+// LeetCode 125: Valid Palindrome - Two pointers with character filtering and case-insensitive comparison
+// Core Logic: Skip non-alphanumeric chars with while loops, compare lowercase chars from both ends
 public class q125 {
 
     boolean isPalindrome(String s){

@@ -1,3 +1,6 @@
+// LeetCode 430: Flatten a Multilevel Doubly Linked List - DFS traversal connecting child nodes in main chain
+// Core Logic: When child found, recursively flatten child, connect tail of child subtree to current next
+
 public class q430 {
     static class Node {
         public int val;

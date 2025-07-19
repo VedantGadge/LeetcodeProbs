@@ -1,3 +1,5 @@
+// LeetCode 1051: Height Checker - Bucket sort comparison with original array for mismatch counting
+// Core Logic: Use bucket sort on heights, compare bucket-sorted order with original, count differences
 public class q1051 {
     public int heightChecker(int[] heights) {
         // perform a bucket-sort

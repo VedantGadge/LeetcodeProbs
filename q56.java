@@ -1,3 +1,6 @@
+// LeetCode 56: Merge Intervals - Sort by start time then merge overlapping intervals
+// Core Logic: Sort intervals by start time, iterate and merge when current start <= previous end, use ArrayList for result
+
 import java.util.Arrays;
 import java.util.ArrayList;
 

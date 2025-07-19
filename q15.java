@@ -1,3 +1,5 @@
+// LeetCode 15: 3Sum - HashSet for duplicate avoidance with sorted array + two pointers technique
+// Core Logic: Fix first element, use two pointers on remaining array, HashSet automatically handles duplicates
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;

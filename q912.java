@@ -1,3 +1,6 @@
+// LeetCode 912: Sort an Array - Merge sort implementation with divide and conquer
+// Core Logic: Divide array into halves, recursively sort, merge sorted halves using temporary array
+
 public class q912 {
     public void merge(int[] arr, int low, int mid, int high) {
         int[] merged = new int[high - low + 1];

@@ -1,3 +1,6 @@
+// LeetCode 50: Pow(x, n) - Fast exponentiation using divide-and-conquer with negative handling
+// Core Logic: Recursive approach halving exponent each time, handle negative exponent by reciprocal, use long for overflow protection
+
 public class q50 {
     
     static double myPow(double x, int n) {

@@ -1,3 +1,6 @@
+// LeetCode 680: Valid Palindrome II - Two pointers with one character deletion allowance
+// Core Logic: Use two pointers, when mismatch found try skipping left or right character once
+
 public class q680 {
 
     private boolean isPalindrome(String s, int left, int right) {

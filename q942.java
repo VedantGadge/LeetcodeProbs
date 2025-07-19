@@ -1,3 +1,6 @@
+// LeetCode 942: DI String Match - Greedy approach using low/high pointers for I/D characters
+// Core Logic: For 'I' use low++, for 'D' use high--, remaining value fills last position
+
 public class q942 {
     public int[] diStringMatch(String s) {
         int n = s.length();

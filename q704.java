@@ -1,3 +1,6 @@
+// LeetCode 704: Binary Search - Classic binary search implementation
+// Core Logic: Compare middle element with target, adjust search bounds until found or exhausted
+
 public class q704 {
 
     public static int search(int[] nums, int target) {

@@ -1,3 +1,5 @@
+// LeetCode 3079: Find the Sum of Encrypted Integers - Extract digits, find max digit, construct encrypted number
+// Core Logic: Find max digit and digit count, multiply max digit by corresponding power of 11 (11, 111, 1111)
 public class q3079 {
     public int sumOfEncryptedInt(int[] nums) {
         int sum = 0;

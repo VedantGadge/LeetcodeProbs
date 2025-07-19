@@ -1,3 +1,5 @@
+// LeetCode 136: Single Number - XOR all elements to find the unique number (XOR cancellation property)
+// Core Logic: XOR all nums; duplicates cancel out (a^a=0), leaving only the single occurrence number
 public class q136 {
     public static int singleNumber(int[] nums) {
         int ans = 0;

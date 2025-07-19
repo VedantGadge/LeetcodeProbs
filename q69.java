@@ -1,3 +1,6 @@
+// LeetCode 69: Sqrt(x) - Binary search with overflow protection using long
+// Core Logic: Binary search in range [1, x/2], use long for square calculation to prevent overflow, return floor value
+
 public class q69 {
     public int mySqrt(int x) {
         if (x < 2) return x; // Handle edge cases

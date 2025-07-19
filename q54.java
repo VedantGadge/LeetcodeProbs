@@ -1,3 +1,6 @@
+// LeetCode 54: Spiral Matrix - Layer-by-layer traversal with boundary shrinking
+// Core Logic: Four directional passes (right, down, left, up) with boundary updates, handle edge cases for single row/column
+
 import java.util.ArrayList;
 import java.util.List;
 

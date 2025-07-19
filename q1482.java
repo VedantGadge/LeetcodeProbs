@@ -1,3 +1,5 @@
+// LeetCode 1482: Minimum Number of Days to Make m Bouquets - Binary search on days with bouquet counting
+// Core Logic: Binary search on min to max bloom days, simulate bouquet formation for each day
 public class q1482 {
 
     static int maxEl(int[] arr){

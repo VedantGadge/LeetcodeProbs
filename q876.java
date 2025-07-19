@@ -1,3 +1,6 @@
+// LeetCode 876: Middle of the Linked List - Floyd's tortoise and hare algorithm
+// Core Logic: Slow pointer moves 1 step, fast pointer moves 2 steps; when fast reaches end, slow is at middle
+
 public class q876 {
     static class ListNode {
       int val;

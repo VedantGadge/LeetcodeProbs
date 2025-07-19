@@ -1,3 +1,5 @@
+// LeetCode 268: Missing Number - Selection sort implementation to find missing number in sequence
+// Core Logic: Sort array using selection sort, then find first position where nums[i] != i
 public class q268 {
     public static int missingNumber(int[] nums) {
         int k=0;

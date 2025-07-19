@@ -1,3 +1,5 @@
+// LeetCode 237: Delete Node in Linked List - Copy next node's value, then skip next node
+// Core Logic: Can't access previous node, so copy next value and skip next (node becomes duplicate)
 public class q237 {
 
     static class ListNode {

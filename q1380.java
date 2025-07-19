@@ -1,3 +1,5 @@
+// LeetCode 1380: Lucky Numbers in a Matrix - Separate arrays for row minimums and column maximums
+// Core Logic: Find min in each row, max in each column, check intersection for lucky numbers
 import java.util.*;
 
 public class q1380 {

@@ -1,3 +1,5 @@
+// LeetCode 2149: Rearrange Array Elements by Sign - Two-pointer approach with separate indices for positive/negative
+// Core Logic: Use pos=0, neg=1 indices, increment by 2, place elements based on sign
 public class q2149 {
     public static void main(String[] args) {
         int nums[] = {3,1,-2,-5,2,-4};

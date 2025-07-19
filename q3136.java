@@ -1,3 +1,5 @@
+// LeetCode 3136: Valid Word - ASCII range checking for alphanumeric validation with vowel/consonant requirements
+// Core Logic: Check ASCII ranges for valid characters, ensure at least one vowel and one consonant
 public class q3136 {
     public boolean isValid(String word) {
         if (word.length() < 3)

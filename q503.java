@@ -1,3 +1,6 @@
+// LeetCode 503: Next Greater Element II - Circular array handling with double traversal and stack
+// Core Logic: Iterate twice through array using modulo, stack maintains decreasing elements for next greater lookup
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

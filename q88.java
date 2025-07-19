@@ -1,3 +1,6 @@
+// LeetCode 88: Merge Sorted Array - Reverse traversal in-place merge to avoid overwriting
+// Core Logic: Start from end of both arrays, place larger element at end of nums1, work backwards to avoid conflicts
+
 public class q88 {
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {

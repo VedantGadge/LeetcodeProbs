@@ -1,3 +1,5 @@
+// LeetCode 2176: Count Equal and Divisible Pairs in Array - Nested loops with value equality and index product divisibility
+// Core Logic: Check nums[i] == nums[j] AND (i * j) % k == 0 for all valid pairs
 public class q2176 {
 
     public static int countPairs(int[] nums, int k) {

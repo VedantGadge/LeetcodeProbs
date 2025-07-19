@@ -1,3 +1,5 @@
+// LeetCode 2016: Maximum Difference Between Increasing Elements - Nested loops with ordering constraint
+// Core Logic: For each i < j, check if nums[i] < nums[j], track maximum difference
 public class q2016 {
 
     public static int maximumDifference(int[] nums) {

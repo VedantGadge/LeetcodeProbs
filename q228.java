@@ -1,3 +1,5 @@
+// LeetCode 228: Summary Ranges - Track range start with temp pointer, format ranges with String.format
+// Core Logic: Detect breaks in consecutive sequence, format single numbers vs ranges differently
 import java.util.*;
 
 public class q228 {

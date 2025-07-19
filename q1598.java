@@ -1,3 +1,5 @@
+// LeetCode 1598: Crawler Log Folder - Stack simulation for folder navigation with special command handling
+// Core Logic: Use stack, pop for "../", skip for "./", push for regular folders
 import java.util.Stack;
 
 public class q1598 {

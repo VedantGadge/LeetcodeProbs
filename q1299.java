@@ -1,3 +1,5 @@
+// LeetCode 1299: Replace Elements with Greatest Element on Right Side - Reverse traversal with running maximum
+// Core Logic: Traverse from right, maintain max seen so far, replace current with previous max
 public class q1299{
     public static int[] replaceElements(int[] arr) {
         int max = -1;

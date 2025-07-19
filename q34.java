@@ -1,3 +1,6 @@
+// LeetCode 34: Find First and Last Position of Element - Binary search for leftmost and rightmost occurrences
+// Core Logic: Two separate binary searches - one biased left (high=mid-1), one biased right (low=mid+1)
+
 public class q34 {
 
     public static int firstBinsearch(int[] nums, int target){

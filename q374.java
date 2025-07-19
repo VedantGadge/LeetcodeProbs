@@ -1,3 +1,6 @@
+// LeetCode 374: Guess Number Higher or Lower - Binary search with API feedback
+// Core Logic: Use guess API result to adjust search range, binary search approach
+
 // ** 
 //  * Forward declaration of guess API.
 //  * @param  num   your guess

@@ -1,3 +1,6 @@
+// LeetCode 40: Combination Sum II - Backtracking with duplicate avoidance using sorted array
+// Core Logic: Sort array first, skip duplicates at same recursion level using i > index condition in loop
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

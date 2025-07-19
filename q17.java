@@ -1,3 +1,5 @@
+// LeetCode 17: Letter Combinations of Phone Number - Backtracking with StringBuilder and recursive exploration
+// Core Logic: Use Map for digit-to-letters mapping, backtrack with StringBuilder for efficient string building
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

@@ -1,3 +1,6 @@
+// LeetCode 735: Asteroid Collision - Stack simulation for collision detection between moving asteroids
+// Core Logic: Use stack for rightward asteroids, handle collisions when leftward asteroid meets rightward ones
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

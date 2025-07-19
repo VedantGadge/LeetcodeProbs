@@ -1,3 +1,5 @@
+// LeetCode 31: Next Permutation - Find rightmost ascending pair, then reverse suffix after replacement
+// Core Logic: Find break point from right, swap with next greater element, reverse remaining suffix
 // Next permutation
 // LOGIC EXPLAINED BELOW
 

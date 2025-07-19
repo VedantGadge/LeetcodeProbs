@@ -1,3 +1,6 @@
+// LeetCode 66: Plus One - Reverse traversal handling carry propagation
+// Core Logic: Traverse from end, increment non-9 digit and return, set 9s to 0, handle all-9s case with new array
+
 public class q66 {
     
     public static int[] plusOne(int[] digits) {

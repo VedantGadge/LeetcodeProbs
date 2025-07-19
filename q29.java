@@ -1,3 +1,5 @@
+// LeetCode 29: Divide Two Integers - Bit shifting for efficient division without using division operator
+// Core Logic: Use bit shifting (left shift) to find largest multiple, handle sign and overflow cases
 class q29{
     public int divide(int dividend, int divisor) {
         if(dividend == divisor) return 1;

@@ -1,3 +1,6 @@
+// LeetCode 739: Daily Temperatures - Stack-based approach processing temperatures from right to left
+// Core Logic: Use stack to store indices, pop smaller temps, store distance to next warmer temperature
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 

@@ -1,3 +1,5 @@
+// LeetCode 2000: Reverse Prefix of Word - Deque as stack for character reversal until target found
+// Core Logic: Build stack until target found, reverse by popping stack, append remaining substring
 import java.util.ArrayDeque;
 import java.util.Deque;
 

@@ -1,3 +1,5 @@
+// LeetCode 1539: Kth Missing Positive Number - Binary search with missing count formula
+// Core Logic: Missing count = arr[mid] - (1 + mid), binary search to find insertion point
 public class q1539 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+// LeetCode 131: Palindrome Partitioning - Backtracking with helper palindrome check function
+// Core Logic: For each index, try all possible substrings, backtrack if palindrome found
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,3 +1,5 @@
+// LeetCode 35: Search Insert Position - Binary search to find target or insertion point
+// Core Logic: Use binary search; when target not found, left pointer indicates insertion position
 public class q35 {
     public static int searchInsert(int[] nums, int target) {
         int l = 0;

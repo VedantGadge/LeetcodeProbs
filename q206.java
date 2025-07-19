@@ -1,3 +1,5 @@
+// LeetCode 206: Reverse Linked List - Recursive approach with front pointer manipulation
+// Core Logic: Recursively reverse, then adjust front.next = head and head.next = null
 public class q206 {
     static class ListNode {
       int val;

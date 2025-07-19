@@ -1,3 +1,6 @@
+// LeetCode 496: Next Greater Element I - Stack with HashMap for efficient next greater element mapping
+// Core Logic: Process nums2 from right, use stack to find next greater, store in HashMap for O(1) lookup
+
 import java.util.HashMap;
 import java.util.Stack;
 

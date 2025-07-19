@@ -1,3 +1,6 @@
+// LeetCode 5: Longest Palindromic Substring - Expand around centers approach with all possible centers
+// Core Logic: Check palindromes expanding from each character and between characters, track max length with start index
+
 public class q5 {
 
     static int lengthOfPali(String s,int left , int right){
@@ -8,7 +11,7 @@ public class q5 {
         return right - left - 1;
     }
 
-    static String longestPalindrome(String s){
+    public static String longestPalindrome(String s) {
         if(s == null || s.length()<1) return "";
         int start = 0 , end = 0;
         for(int i = 0;i<s.length();i++){

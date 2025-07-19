@@ -1,3 +1,5 @@
+// LeetCode 1283: Find Smallest Divisor Given Threshold - Binary search on divisor with ceiling division
+// Core Logic: Binary search from 1 to max element, use Math.ceil for division sum calculation
 public class q1283 {
 
     static int calcDivisionSum(int[] arr , int n){

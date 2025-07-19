@@ -1,3 +1,5 @@
+// LeetCode 2410: Maximum Matching of Players With Trainers - Greedy matching on sorted arrays
+// Core Logic: Sort both arrays, use two pointers, match when trainer >= player ability
 import java.util.Arrays;
 
 public class q2410 {

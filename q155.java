@@ -1,3 +1,5 @@
+// LeetCode 155: Min Stack - Custom stack node with min value tracking at each level
+// Core Logic: Each stack node stores current min, enabling O(1) getMin() operation
 public class q155 {
     int min = Integer.MAX_VALUE;
     stackNode top = null;

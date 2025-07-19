@@ -1,3 +1,5 @@
+// LeetCode 1909: Remove One Element to Make Array Strictly Increasing - Two-pass validation from both directions
+// Core Logic: Count violations from left and right, minimum violations should be <= 1
 public class q1909 {
 
     public boolean canBeIncreasing(int[] nums) {

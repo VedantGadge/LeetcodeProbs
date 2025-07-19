@@ -1,3 +1,5 @@
+// LeetCode 1089: Duplicate Zeros - In-place array shifting with nested loops for zero duplication
+// Core Logic: When zero found, shift all elements right from current position, increment i to skip duplicate
 public class q1089 {
     public static void duplicateZeros(int[] arr) {
         for(int i =0;i<arr.length-1;i++ ){

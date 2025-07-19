@@ -1,3 +1,5 @@
+// LeetCode 1470: Shuffle the Array - Two-pointer interleaving with separate index tracking
+// Core Logic: Use three pointers (i, j, k) to interleave first half with second half elements
 public class q1470 {
 
     public static int[] shuffle(int[] nums, int n) {
