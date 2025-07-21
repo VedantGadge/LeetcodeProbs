@@ -1,3 +1,7 @@
+// LeetCode 2487: Remove Nodes From Linked List - Reverse twice approach with monotonic decreasing filtering
+// Core Logic: Reverse list, remove nodes smaller than previous (maintain decreasing order), reverse back
+// Key insight: After reversing, we can easily remove nodes that have a greater node to their right
+
 public class q2487 {
       public class ListNode {
       int val;
