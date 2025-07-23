@@ -5,8 +5,8 @@ public class q1004 {
         for(int right = 0;right<nums.length;right++){
             if(nums[right]==0) k--;
                 while(k<0){
-                    left++;
                     if(nums[left]==0) k++;
+                    left++;
                 }
             maxLen = Math.max(maxLen, right - left + 1);
         }
