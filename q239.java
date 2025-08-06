@@ -1,3 +1,6 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class q23{
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
