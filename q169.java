@@ -2,7 +2,7 @@
 // Core Logic: Increment count for candidate match, decrement for mismatch; majority survives cancellation
 class q169{
     public static void main(String[] args) {
-        int nums[] = {3,3,4,4,2,1,3};
+        int nums[] = {3,3,4,4,2,1,3,5};
         int count = 0, majority=0;
         for (int num:nums){
             if(count==0){
