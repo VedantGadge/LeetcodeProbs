@@ -1,25 +1,32 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class q498 {
-    public int[] findDiagonalOrder(int[][] matrix) {
-        if (matrix == null || matrix.length == 0) return new int[0];
-
-        int m = matrix.length, n = matrix[0].length;
-        int[] result = new int[m * n];
-        int row = 0, col = 0;
-
-        for (int i = 0; i < m * n; i++) {
-            result[i] = matrix[row][col];
-
-            if ((row + col) % 2 == 0) {
-                if (col == n - 1) row++;
-                else if (row == 0) col++;
-                else { row--; col++; }
-            } else {
-                if (row == m - 1) col++;
-                else if (col == 0) row++;
-                else { row++; col--; }
-            }
+    public static List<Integer> findDiagonalOrder(int[][] mat) {
+        List<Integer> list = new ArrayList<>();
+        for(int j = 0; j<mat[0].length ;j++){
+                if(j%2!=0){
+                    int i = 0;
+                    while(j>0){
+                        list.add(mat[i][j]);
+                        i++;
+                        j--;
+                    } 
+                }
+                else{
+                    int i = j;
+                    while(i>0){
+                        list.add(mat[i][j]);
+                        i--;
+                        j++;
+                    }
+                }
         }
-
-        return result;
+        return list;
+    }
+    public static void main(String[] args) {
+        int[][] mat = {{1,2,3},{4,5,6},{7,8,9}};
+        List<Integer> ans = findDiagonalOrder(mat);
+        System.out.println(ans.toString());
     }
 }

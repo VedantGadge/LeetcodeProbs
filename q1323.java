@@ -1,13 +1,13 @@
+
 public class q1323 {
     public int maximum69Number (int num) {
-        int ans = 0, i = 0;
-        while(num!=0){
-            int digit = num%10 ;
-            if(digit == 6) ans+= Math.pow(10, i)*9;
-            else ans+= Math.pow(10, i)*digit;
-            i++;
-            num /= 10;
+        char[] s = Integer.toString(num).toCharArray();
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] == '6') {
+                s[i] = '9';
+                break;
+            }
         }
-        return ans;
+        return Integer.parseInt(new String(s));
     }
 }
