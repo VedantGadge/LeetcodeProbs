@@ -12,7 +12,6 @@ public class q3 {
         
         for (int right = 0; right < n; right++) {
             while (set.contains(str[right])) {
-                currentLen --;
                 set.remove(str[left]);
                 left++;
             }
