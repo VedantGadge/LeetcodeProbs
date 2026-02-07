@@ -1,4 +1,4 @@
-// LeetCode 8: String to Integer (atoi) - State machine approach with overflow handling
+// LeetCode 8: String to Integer (atoi) : State machine approach with overflow handling
 // Core Logic: Skip spaces, handle sign, process digits with bounds checking using Integer.MAX_VALUE/MIN_VALUE
 
 public class q8 {
@@ -10,7 +10,6 @@ public class q8 {
         // Skip leading spaces
         while (i < n && s.charAt(i) == ' ') i++;
 
-        // Handle sign
         if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
             if (s.charAt(i) == '-') sign = -1;
             i++;
