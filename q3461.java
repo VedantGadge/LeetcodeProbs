@@ -6,13 +6,11 @@ class q3461{
         for (int i = 0; i < n; i++) {
             a[i] = s.charAt(i) - '0';
         }
-        // reduce until size is 2
-        int size = n;
-        while (size > 2) {
+        // reduce until 2 digits remain
+        for (int size = n; size > 2; size--) {
             for (int i = 0; i < size - 1; i++) {
                 a[i] = (a[i] + a[i + 1]) % 10;
             }
-            size--;
         }
         return a[0] == a[1];
     }
