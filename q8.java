@@ -7,7 +7,6 @@ public class q8 {
         int i = 0, n = s.length(), sign = 1;
         long num = 0;
 
-        // Skip leading spaces
         while (i < n && s.charAt(i) == ' ') i++;
 
         if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
