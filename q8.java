@@ -17,7 +17,6 @@ public class q8 {
         // Parse digits
         while (i < n && Character.isDigit(s.charAt(i))) {
             num = num * 10 + (s.charAt(i) - '0');
-            // Clamp to 32-bit signed int range
             if (sign * num > Integer.MAX_VALUE) {
                 num = Integer.MAX_VALUE;
                 break;
