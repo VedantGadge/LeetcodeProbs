@@ -1,19 +1,18 @@
 class q3461{
     public boolean hasSameDigits(String s) {
-         int n = s.length();
-        // convert to int array
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = s.charAt(i) - '0';
+        int[] digits = new int[s.length()];
+        for (int i = 0; i < s.length(); i++) {
+            digits[i] = s.charAt(i) - '0';
         }
-        // reduce until size is 3
-        int size = n;
-        while (size > 2) {
-            for (int i = 0; i < size - 1; i++) {
-                a[i] = (a[i] + a[i + 1]) % 10;
+
+        while (digits.length > 2) {
+            int[] next = new int[digits.length - 1];
+            for (int i = 0; i < next.length; i++) {
+                next[i] = (digits[i] + digits[i + 1]) % 10;
             }
-            size--;
+            digits = next;
         }
-        return a[0] == a[1];
+
+        return digits[0] == digits[1];
     }
 }
