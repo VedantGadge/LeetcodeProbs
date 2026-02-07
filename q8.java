@@ -14,7 +14,6 @@ public class q8 {
             i++;
         }
 
-        // Parse digits
         while (i < n && Character.isDigit(s.charAt(i))) {
             num = num * 10 + (s.charAt(i) - '0');
             if (sign * num > Integer.MAX_VALUE) {
