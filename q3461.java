@@ -5,6 +5,7 @@ class q3461{
         for (int i = 0; i < n; i++) {
             a[i] = s.charAt(i) - '0';
         }
+        // sss
         for (int size = n; size > 2; size--) {
             for (int i = 0; i < size - 1; i++) {
                 a[i] = (a[i] + a[i + 1]) % 10;
