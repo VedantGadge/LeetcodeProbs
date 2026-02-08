@@ -9,7 +9,7 @@ public class q3 {
         int left = 0;
         int currentLen = 0;
         int maxLen = 0;
-        //test123345565
+        //test123
         for (int right = 0; right < n; right++) {
             while (set.contains(str[right])) {
                 set.remove(str[left]);
