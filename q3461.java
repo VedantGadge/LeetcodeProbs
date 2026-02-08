@@ -1,7 +1,6 @@
 class q3461{
     public boolean hasSameDigits(String s) {
          int n = s.length();
-        // convert to int array
         int[] a = new int[n];
         for (int i = 0; i < n; i++) {
             a[i] = s.charAt(i) - '0';
